@@ -54,7 +54,8 @@ function ContactForm() {
       </p>
       
       <div className="flex flex-col sm:flex-row gap-8 sm:gap-16 ml-4 sm:ml-20 mt-8">
-        <div className="sm:w-1/3">
+
+        <div className="sm:w-1/3 text-left">
           <h2 className="text-xl font-bold text-black hover:text-blue-500 hover:scale-y-150 mb-2">Address</h2>
           <p className="text-gray-400 text-base font-bold hover:text-orange-500 hover:scale-y-150 mb-8">
             236 5th SE Avenue, New York NY10000, United States
@@ -74,7 +75,7 @@ function ContactForm() {
         </div>
 
         <form onSubmit={handleSubmit} className="sm:w-2/3 pr-4">
-          <div className="mt-10">
+          <div className="mt-2">
             <div>
               <label htmlFor="name" className="block text-gray-700 font-bold hover:text-blue-500 hover:scale-y-150">
                 Your name

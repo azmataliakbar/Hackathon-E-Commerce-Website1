@@ -41,7 +41,7 @@ export default function CheckoutForm() {
       
 
       <div className="w-full">
-        <h2 className="text-3xl font-bold mb-4 text-black hover:text-red-500 hover:scale-y-150">
+        <h2 className="text-3xl text-center font-bold mb-4 text-black hover:text-red-500 hover:scale-y-150">
           Billing Details
         </h2>
 
@@ -195,14 +195,15 @@ export default function CheckoutForm() {
           </div>
         </div>
 
-        <div className="mt-4">
+        <div className="mt-4 flex justify-center items-center">
           <button
             type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-red-400  hover:scale-125 font-bold"
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-red-400  hover:scale-125 font-bold "
           >
             Place Order
           </button>
         </div>
+
       </form>
 
       </div>

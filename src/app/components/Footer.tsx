@@ -14,7 +14,7 @@ export default function Footer() {
           </div>
 
           {/* Links and Help Section */}
-          <div className="flex flex-col md:flex-row gap-8 md:gap-40">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-40 text-center">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-black hover:scale-y-150 hover:text-blue-600">
                 Links

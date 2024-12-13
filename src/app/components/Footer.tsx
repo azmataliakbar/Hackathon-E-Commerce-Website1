@@ -77,7 +77,7 @@ export default function Footer() {
         <hr className="border-t border-gray-300 my-4 w-3/4 mx-auto" />
         <p className="text-center text-xs mt-8 text-gray-500 hover:scale-110 md:hover:scale-150 lg:hover:scale-150 hover:text-green-500">
           © 2024 Meubel House. All rights reserved.
-          <p className="text-center text-gray-300 text-xs">Author: Azmat ALI</p>
+          <p className="text-center text-gray-300 text-xs">Author: Azmat Ali</p>
         </p>
       </div>
     </footer>

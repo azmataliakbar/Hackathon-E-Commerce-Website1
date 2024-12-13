@@ -35,7 +35,7 @@ function ContactForm() {
       {/* Contact section - 1 */}
       <div className="relative w-full">
         <Image
-          src="/shop1.png"
+          src="/shop11.png"
           alt="Shop Banner"
           width={1520}
           height={400}

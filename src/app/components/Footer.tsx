@@ -64,11 +64,13 @@ export default function Footer() {
                 placeholder="Enter Your Email Address"
                 className="border-b-2 border-gray-300 text-base focus:placeholder-blue-600 w-full md:w-auto"
               />
+              <div className=" flex justify-center items-center">
               <Link href="/Contact">
-                <button className="underline text-gray-400 mt-2 md:mt-0 text-sm hover:scale-y-150 hover:text-orange-500">
+                <button className="underline  text-gray-400 mt-2 md:mt-0 text-sm hover:scale-y-150 hover:text-orange-500">
                   SUBSCRIBE
                 </button>
               </Link>
+              </div>
             </div>
           </div>
         </div>

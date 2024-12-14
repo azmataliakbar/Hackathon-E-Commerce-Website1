@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Header1 from '../components/Header1';
 import Last from '../components/Footer'
 import Image from 'next/image';
+import Link from "next/link";
 
 function ShoppingCart() {
   const [cart, setCart] = useState([
@@ -48,7 +49,7 @@ function ShoppingCart() {
       {/* Shop section - 1 */}
       <div className="relative">
         <Image
-          src="/shop1.png"
+          src="/shop11.png"
           alt="Shop Banner"
           width={1520}
           height={400}
@@ -139,12 +140,14 @@ function ShoppingCart() {
 
   {/* Button */}
   <div className="mt-4">
+    <Link href="/ShoppingCart">
     <button
       className="text-black px-4 py-1 rounded-lg mt-4 border-2 border-gray-300 font-bold hover:bg-blue-300 hover:scale-125"
       onClick={handleCheckout}
     >
       Check Out
     </button>
+    </Link>
   </div>
 </div>
       </div>

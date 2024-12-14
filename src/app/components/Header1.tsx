@@ -92,7 +92,7 @@ export default function Header() {
                 className="hover:scale-125"
               />
             </Link>
-            <Link href="/Shop">
+            <Link href="/SingleProduct">
               <Image
                 src="/icon3.png"
                 alt="Favorite"
@@ -101,7 +101,7 @@ export default function Header() {
                 className="hover:scale-125"
               />
             </Link>
-            <Link href="/SingleProduct">
+            <Link href="/Cart">
               <Image
                 src="/icon4.png"
                 alt="AddToBag"

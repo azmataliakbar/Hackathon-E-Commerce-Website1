@@ -60,9 +60,9 @@ function ShoppingCart() {
 
   return (
     <div className="bg-[#FFFFFF]">
-      <div className="bg-white pt-2 pb-14 px-2 w-full max-w-[500px] h-auto mx-auto lg:ml-[1040px]">
+      <div className="bg-white pt-2 pb-14 pr-10 pl-4 w-full max-w-[500px] h-auto mx-auto lg:ml-[1040px]">
         {/* Header */}
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-center mt-8 mb-4">
           <h2 className="text-2xl lg:text-3xl font-bold text-black hover:scale-y-125 hover:text-red-500">
             Shopping Cart
           </h2>
@@ -89,7 +89,7 @@ function ShoppingCart() {
                   height={80}
                   className="mr-4 hover:scale-125"
                 />
-                <div>
+                <div className=''>
                   <h3 className="text-base lg:text-lg font-semibold text-black hover:scale-y-150 hover:text-blue-500">
                     {item.name}
                   </h3>

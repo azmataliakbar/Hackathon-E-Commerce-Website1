@@ -1,11 +1,19 @@
+"use client"
+
 import Image from 'next/image';
 import Link from "next/link";
 
 export default function Sofa1() {
   return (
     <div>
-      <main className="container mx-auto py-2 bg-[#FBEBB5]">
-        <div className="flex flex-col md:flex-row justify-center md:justify-around items-center">
+      <style jsx global>{`
+        body, html {
+          margin: 0;
+          padding: 0;
+        }
+      `}</style>
+      <main className="bg-[#FBEBB5]">
+        <div className="container mx-auto py-2 flex flex-col md:flex-row justify-center md:justify-around items-center">
           <div className="flex flex-col justify-center md:ml-32 text-center md:text-left">
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-black hover:scale-150 hover:text-red-500">
               Rocket Single Seater
@@ -30,3 +38,4 @@ export default function Sofa1() {
     </div>
   );
 }
+
